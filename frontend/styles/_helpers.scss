@@ -1,0 +1,35 @@
+/**
+ * Reset marings on content elements
+ */
+@mixin reset-content-elements() {
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > p,
+  > ul,
+  > ol,
+  > div,
+  > hr,
+  > blockquote,
+  > span,
+  > img,
+  > form,
+  > figure {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+%reset-content-elements,
+.reset-content-elements,
+%rce,
+.rce {
+  @include reset-content-elements();
+}
