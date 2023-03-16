@@ -15,7 +15,7 @@ To start app you will need have installed following software on your computer:
 ## Recruitment tasks
 Your job is to implement following tasks: 
 
-1. Create docker-compose.yml file to provide MySQL for the backend application part
+1. Create docker-compose.yml file to provide MySQL database service in 8.0.32 version for the backend application part
 2. Create Modal from scratch using [React](https://reactjs.org/) and [React Portals](https://reactjs.org/docs/portals.html) [[Demo Video](https://github.com/gleevery/recruitment/blob/master/assest/modal.mp4)]
 3. Create floating label form field using [HOC](https://reactjs.org/docs/higher-order-components.html) and [Stiches](https://stitches.dev/) [[Demo Video](https://github.com/gleevery/recruitment/blob/master/assest/floating-label.mp4)]
 4. Create order form splitted into 3 parts using [React Hook Form](https://react-hook-form.com/) and [Apollo](https://www.apollographql.com/) [[Demo Video](https://github.com/gleevery/recruitment/blob/master/assest/order-form.mp4)]

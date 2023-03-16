@@ -7,7 +7,7 @@ export default function DockerCompose() {
           <p>
             One of the recruitment task need to save data from the form to the database. We will be using Strapi CMS as
             our database and API provider. Strapi CMS to work properly needs database. Create docker-compose.yml in the
-            root of the project directory with MySQL 8 service and configure Strapi CMS to work with this service.
+            root of the project directory with MySQL 8.0.32 service and configure Strapi CMS to work with this service.
           </p>
           <h2>Project structure</h2>
           <pre>
