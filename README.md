@@ -20,7 +20,7 @@ Your job is to implement following tasks:
 3. Create floating label form field using [HOC](https://reactjs.org/docs/higher-order-components.html) and [Stiches](https://stitches.dev/) [[Demo Video](https://github.com/gleevery/recruitment/blob/master/assest/floating-label.mp4)]
 4. Create order form splitted into 3 parts using [React Hook Form](https://react-hook-form.com/) and [Apollo](https://www.apollographql.com/) [[Demo Video](https://github.com/gleevery/recruitment/blob/master/assest/order-form.mp4)]
 
-You can find details of each task after starting frontend part of the application at http://localhost:3000.
+You can find details of each task after starting frontend part of the application at http://localhost:3100.
 
 
 ## Getting started
@@ -53,7 +53,7 @@ Go into backend directory
 cd backend
 ```
 
-Copy dotenv file
+Copy and fill dotenv file with required credentials
 
 ```
 cp .env.example .env
@@ -71,7 +71,7 @@ Start server
 yarn develop
 ```
 
-Now you can start working with backend part of the application. Strapi CMS should be availabe at http://localhost:1337/admin
+Now you can start working with backend part of the application. Strapi CMS should be availabe at http://localhost:8100/admin
 
 ### Frontend
 
@@ -81,7 +81,7 @@ Go into frontend directory
 cd frontend
 ```
 
-Copy dotenv file
+Copy and fill dotenv file with required credentials
 
 ```
 cp .env.example .env.local
@@ -99,7 +99,7 @@ Start server
 yarn develop
 ```
 
-Now you can start working with frontend part of the application. App should be availabe at http://localhost:3000
+Now you can start working with frontend part of the application. App should be availabe at http://localhost:3100
 
 ## Project structure
 
